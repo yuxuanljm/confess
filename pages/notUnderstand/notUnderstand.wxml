@@ -1,0 +1,9 @@
+<!-- 对方不愿意  最后一步  直接拒绝 -->
+<view class="container">
+  <view class="img"></view>
+  <view class="content">
+    <view><text>感谢您的认真选择，我们将在24小时内告知对方您的态度。也衷心祝愿您能遇到心仪的她/他。</text></view>
+    <text>如果有任何表白的需求，也可以随时来找表白君~祝好</text>
+  </view>
+   <button class="goBack">返回主页</button>
+</view>

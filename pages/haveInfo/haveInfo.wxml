@@ -1,0 +1,32 @@
+<!--pages/haveInfo/haveInfo.wxml-->
+<!-- <text>pages/haveInfo/haveInfo.wxml</text> -->
+<view class="container">
+    <view class="title">
+      <view><text>个人意向填写</text></view>
+    </view>
+    <view class="main">
+        <view class="infos">
+          <wux-cell-group title="喜欢的她/他大概多高呢？">
+            <wux-cell hover-class="none">
+                <wux-input type="number" placeholder="输入身高" />
+            </wux-cell>
+      </wux-cell-group>
+      <wux-cell-group title="喜欢她/他的体型属于哪类呢？">
+            <wux-cell hover-class="none">
+                <wux-input type="number" placeholder="选择体型" />
+            </wux-cell>
+      </wux-cell-group>
+      <wux-cell-group title="能接受的年龄范围是？">
+            <wux-cell hover-class="none">
+                <wux-input type="number" placeholder="选择年龄" />
+            </wux-cell>
+      </wux-cell-group>
+      <wux-cell-group title="给她/他的颜值打个分吧！">
+        <wux-cell hover-class="none" class="rater">
+          <wux-rater slot="footer" default-value="{{ 3 }}" margin="{{ 15 }}" star="♡" />
+        </wux-cell>
+      </wux-cell-group>
+        </view>
+    </view>
+    <button bindtap="nextpage">下一页</button>
+</view>

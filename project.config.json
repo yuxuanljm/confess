@@ -1,0 +1,159 @@
+{
+  "description": "项目配置文件",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "enhance": false,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": false,
+    "coverView": true,
+    "nodeModules": true,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": false,
+    "useApiHook": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": []
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.13.1",
+  "appid": "wxf7427b32cb11048b",
+  "projectname": "miniprogram-2",
+  "debugOptions": {
+    "hidedInDevtools": []
+  },
+  "scripts": {},
+  "isGameTourist": false,
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "search": {
+      "current": -1,
+      "list": []
+    },
+    "conversation": {
+      "current": -1,
+      "list": []
+    },
+    "plugin": {
+      "current": -1,
+      "list": []
+    },
+    "game": {
+      "current": -1,
+      "list": []
+    },
+    "gamePlugin": {
+      "current": -1,
+      "list": []
+    },
+    "miniprogram": {
+      "current": -1,
+      "list": [
+        {
+          "id": -1,
+          "name": "pages/request/request",
+          "pathName": "pages/request/request",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/userInfo/userInfo",
+          "pathName": "pages/userInfo/userInfo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": 2,
+          "name": "pages/professInfos/professInfos",
+          "pathName": "pages/professInfos/professInfos",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/userInfo/userInfo",
+          "pathName": "pages/userInfo/userInfo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/professInfos/professInfos",
+          "pathName": "pages/professInfos/professInfos",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/response/response",
+          "pathName": "pages/response/response",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/haveInfo/haveInfo",
+          "pathName": "pages/haveInfo/haveInfo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/decInfos/decInfos",
+          "pathName": "pages/decInfos/decInfos",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/decripInfos/decripInfos",
+          "pathName": "pages/decripInfos/decripInfos",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/haveInfo/haveInfo",
+          "pathName": "pages/haveInfo/haveInfo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/noInfos/noInfos",
+          "pathName": "pages/noInfos/noInfos",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/notUnderstand/notUnderstand",
+          "pathName": "pages/notUnderstand/notUnderstand",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

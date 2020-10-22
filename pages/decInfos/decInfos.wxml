@@ -1,0 +1,19 @@
+<view class="container">
+  <view class="top content">
+    <view class="title"><text>他/她的兴趣爱好如下，你感兴趣吗?</text></view>
+    <view class="hobbies"><text>兴趣爱好1、</text><text>兴趣爱好2、</text><text>兴趣爱好3</text></view>
+    <view class="buttons">
+      <view class="bao"><view class="first in"></view>感兴趣</view>
+      <view class="bao"><view class="second in"></view>不感兴趣</view>
+    </view>
+  </view>
+  <view class="bottom content">
+    <view class="title"><text>代表她/他的3个关键词如下，你表示认可吗?</text></view>
+    <view class="hobbies"><text>关键词1、</text><text>关键词2、</text><text>关键词3</text></view>
+    <view class="buttons">
+      <view class="bao"><view class="first in"></view>认可</view>
+      <view class="bao"><view class="second in"></view>不认可</view>
+    </view>
+  </view>
+  <button bindtap="nextPage">下一页</button>
+</view>

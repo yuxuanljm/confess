@@ -1,0 +1,12 @@
+<view class="response">
+  <view class="img"></view>
+  <view class="line1 line"><text>请问小伙伴是否愿意了解一下对方呢?</text></view>
+  <view class="line2 line"><text>愿意了解的话表白君将询问你对心中她/他的期望</text></view>
+  <view class="line2 line"><text>以此来判断你们两个是否匹配</text></view>
+  <view class="line2 line"><text>一定要认真填写哦（认真脸）</text></view>
+  <view class="twobutton">
+    <view class="first" bindtap="havaInfo">愿意</view>
+    <view class="second" bindtap="noInfo">不愿意</view>
+  </view>
+</view>
+

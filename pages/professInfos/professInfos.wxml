@@ -1,0 +1,43 @@
+<!--pages/professInfos/professInfos.wxml-->
+<!-- <text>pages/professInfos/professInfos.wxml</text> -->
+
+<view class="container">
+    <view class="title">
+      <view><text>表白信息</text></view>
+      <text>信息仅用于发送表白提醒，请放心填写</text>
+    </view>
+    <view class="main">
+        <view class="infos">
+          <wux-cell-group>
+            <wux-cell hover-class="none">
+                <wux-input type="text" placeholder="对方姓名" />
+            </wux-cell>
+          </wux-cell-group>
+          <wux-cell-group>
+            <wux-cell hover-class="none"  title="对方性别" >
+                  <radio-group class="radio-group" bindchange="radioChange">
+                    <label class="radio"  wx:for="{{items}}" wx:key="index">
+                      <radio value="{{item.name}}" checked="{{item.checked}}">{{item.value}}</radio>
+                    </label>
+                  </radio-group>
+            </wux-cell>
+          </wux-cell-group>
+          <wux-cell-group>
+            <wux-cell hover-class="none">
+                <wux-input 
+                placeholder="对方手机" value="{{ value }}" controlled error="{{ error }}" type="number" bind:change="onChange" bind:focus="onFocus" bind:blur="onBlur" bind:confirm="onConfirm" bind:clear="onClear" bind:error="onError" />
+            </wux-cell>
+        </wux-cell-group>
+        </view>
+        <view class="title">
+          <view><text>表白内容</text></view>
+          <text>表白者可自行决定发送时间，建议认真填写</text>
+        </view>
+        <wux-cell-group >
+            <wux-cell hover-class="none">
+                <wux-textarea hasCount rows="7" cursorSpacing="80" placeholder="请输入..." />
+            </wux-cell>
+        </wux-cell-group>
+    </view>
+    <button bindtap="nextpage">发送</button>
+</view>

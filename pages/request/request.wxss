@@ -1,0 +1,30 @@
+/* pages/request/request.wxss */
+.container{
+  padding:20px;
+}
+.title{
+  text-align: center;
+}
+.main{
+  border:1px black solid;
+  border-radius: 10px;
+  margin-top: 10px;
+  box-sizing: border-box;
+  width:100%;
+  height:400px;
+  padding:10px 20px;
+}
+.wux-cell{
+  border:1px #BBBBBB solid;
+  height: 30px;
+  /* 无效 */
+  border-radius: 5px;
+}
+.myself .wux-cell{
+  margin:5px 0;
+}
+.wux-input{
+  /* height: 30px; */
+  /* border:1px #BBBBBB solid; */
+}
+

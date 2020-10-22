@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "wux-cell-group": "../../miniprogram_npm/wux-weapp/cell-group/index",
+    "wux-cell": "../../miniprogram_npm/wux-weapp/cell/index",
+    "wux-calendar": "../../miniprogram_npm/wux-weapp/calendar/index",
+    "wux-input": "../../miniprogram_npm/wux-weapp/input/index",
+    "wux-icon": "../../miniprogram_npm/wux-weapp/icon/index"
+  }
+}

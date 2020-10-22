@@ -1,0 +1,45 @@
+/* pages/userInfo/userInfo.wxss */
+.container{
+  padding:20px;
+  font-size: 12px;
+}
+.title{
+  text-align: center;
+}
+.main{
+  border:1px black solid;
+  border-radius: 10px;
+  margin-top: 10px;
+  box-sizing: border-box;
+  width:100%;
+  height:400px;
+  padding:10px 20px;
+}
+.giverate{
+  width:100%;
+  height: 30px;
+  border:1px black solid;
+}
+.content{
+  width:100%;
+  /* border:1px black solid; */
+  margin:20px 0;
+  /* 不起作用 */
+  /* box-sizing: border-box; */
+}
+.wux-cell{
+  border:1px #666 solid;
+  padding-left:-15px;
+}
+.wux-rater{
+}
+.content1{
+  height: 120px;
+  margin:10px 0;
+  border:1px black solid;
+}
+.content2{
+  height: 100px;
+  margin:20px 0;
+  border:1px black solid;
+}
