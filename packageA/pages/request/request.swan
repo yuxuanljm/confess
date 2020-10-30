@@ -1,0 +1,72 @@
+<view class="page__hd">
+      <view>个人信息填写</view>
+  </view>
+<view class="container">
+  <view class="page__bd">
+    <view class="page__info">
+      <view class="info__tall">
+        <view class="desc">请选择您的身高(cm)：</view>
+        <view class="wrap">
+            <view class="card-area">
+                <view class="section date-section" hover-class="section-active">
+                    <picker mode="selector"
+                            value="{{selectorTall[arrTallIndex].name}}"
+                            range="{{selectorTall}}"
+                            range-key="name"
+                            bind:change="selectorTallChange">
+                        <view>
+                            <text class="chooseItem">请选择身高:</text>
+                            {{selectorTall[arrTallIndex].name}}
+                        </view>
+                    </picker>
+                </view>
+            </view>
+        </view>
+      </view>
+      <view class="info__weight">
+        <view class="desc">请选择您的体重(kg)：</view>
+        <view class="wrap">
+            <view class="card-area">
+                <view class="section date-section" hover-class="section-active">
+                    <picker mode="selector"
+                            value="{{arrWeightIndex}}"
+                            range="{{selectorWeight}}"
+                            range-key="name"
+                            bind:change="selectorWeightChange">
+                        <view>
+                            <text class="chooseItem">请选择体重:</text>
+                            {{selectorWeight[arrWeightIndex].name}}
+                        </view>
+                    </picker>
+                </view>
+            </view>
+            <input>
+        </view>
+      </view>
+      <view class="info__bir">
+        <view class="desc">请选择您的出生日期：</view>
+        <view class="wrap">
+            <view class="card-area">
+                <view class="section date-section" hover-class="section-active">
+                    <picker mode="date"
+                            value="{{dateDay}}"
+                            bind:change="dateChangeDay"
+                            fields="day">
+                        <view>
+                            <text class="chooseItem">请选择日期:</text>{{dateDay}}
+                        </view>
+                    </picker>
+                </view>
+            </view>
+        </view>
+      </view>
+    </view>
+    <view class="info__desc">
+        <view class="desc">请输入能代表自我的关键词：</view>
+        <input type="text" value="{{userInfo.aprisKeyWords[0]}}" bindblur="changeKeywords" data-index="0" placeholder="关键词1：" class="input" />
+        <input type="text" value="{{userInfo.aprisKeyWords[1]}}" bindblur="changeKeywords" data-index="1" placeholder="关键词2：" class="input"/>
+        <input type="text" value="{{userInfo.aprisKeyWords[2]}}" bindblur="changeKeywords" data-index="2" placeholder="关键词3：" class="input"/>
+      </view>
+  </view>
+<smt-icon name="arrow" class="button" color="white" size="100rpx" bindtap="updateUserInfo"></smt-icon>
+</view>

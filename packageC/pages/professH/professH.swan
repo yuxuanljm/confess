@@ -1,0 +1,15 @@
+<view class="container">
+    <view class="title">表白记录</view>
+    <view class="content">
+        <image src="../../images/notshaixaun.png"></image>
+        <view class="conttitle">
+            <view>对方已应答</view>
+            <view>但未完成筛选机制</view>
+            <view><button>提醒对方完成填写</button></view>
+        </view>
+        <view class="buttons">
+            <button>返回</button>
+            <button>直接进入聊天室</button>
+        </view>
+    </view>
+</view>

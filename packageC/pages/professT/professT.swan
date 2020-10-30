@@ -1,0 +1,15 @@
+<view class="container">
+    <view class="title">表白记录</view>
+    <view class="content">
+      <view class="box"></view>
+        <view class="conttitle">
+            <view class="title1">正在等待对方响应</view>
+            <view class="title2">剩余</view>
+            <view class="title3">47:60:60</view>
+        </view>
+        <view class="buttons">
+            <button>返回</button>
+            <button>修改表白</button>
+        </view>
+    </view>
+</view>

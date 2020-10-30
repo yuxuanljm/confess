@@ -1,0 +1,45 @@
+<!--pages/userInfo/userInfo.wxml-->
+<!-- <text>pages/userInfo/userInfo.wxml</text> -->
+<view class="container">
+    <view class="page__hd">
+        <view>个人意向填写</view>
+        <smt-icon name="help" class="help" color="white" size="40rpx"></smt-icon>
+    </view>
+    <view class="page__bd">
+        <image class="img"></image>
+        <view class="tall-c">
+            <view class="title">心中的他/她大概多高</view>
+            <input type="text" placeholder="单行输入" class="tall" />
+        </view>
+        <view class="weight-c">
+            <view class="title">心中的他/她体型属于哪类呢？</view>
+            <view class="wrap">
+                <view class="rt"></view>
+                <view class="card-area">
+                    <view class="section date-section" hover-class="section-active">
+                    <picker mode="selector"
+                            value="{{arrWeightIndex}}"
+                            range="{{selectorWeight}}"
+                            range-key="name"
+                            bind:change="selectorWeightChange">
+                        <view>
+                            <text class="chooseItem">请选择体重类型:</text>
+                            {{selectorWeight[arrWeightIndex].name}}
+                        </view>
+                    </picker>
+                </view>
+            </view>
+        </view>
+      </view>
+        <view class="age-c">
+            <view class="title">能接受的年龄范围是？</view>
+            <input type="text" placeholder="单行输入" class="tall" />
+        </view>
+        <view >
+            <view class="rating">给心中的他/她的颜值打个分吧！</view>
+            <view class="rate"></view>
+        </view>
+    </view>
+    <smt-icon name="arrow" class="button" color="white" size="100rpx"></smt-icon>
+</view>
+

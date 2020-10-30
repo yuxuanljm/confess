@@ -1,0 +1,11 @@
+<!--pages/response/response.swan-->
+<!-- </text>pages/response/response.swan</text> -->
+<view class="response">
+  <view class="img"></view>
+  <view class="line1 line"><text>请问小伙伴是否有喜欢的人呢?</text></view>
+  <view class="line2 line"><text>注意，此选项不能回退哦！</text></view>
+  <view class="twobutton">
+    <view class="first" bindtap="havaInfo">有</view>
+    <view class="second" bindtap="noInfo">没有</view>
+  </view>
+</view>

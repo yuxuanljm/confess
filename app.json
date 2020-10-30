@@ -1,23 +1,63 @@
 {
-  "pages":[
-    "pages/index/index",
-    "pages/request/request",
-    "pages/response/response",
-    "pages/userInfo/userInfo",
-    "pages/professInfos/professInfos",
-    "pages/oneQuestion/oneQuestion",
-    "pages/haveInfo/haveInfo",
-    "pages/decInfos/decInfos",
-    "pages/decripInfos/decripInfos",
-    "pages/noInfos/noInfos",
-    "pages/wouldUnderstand/wouldUnderstand",
-    "pages/notUnderstand/notUnderstand"
-  ],
+"pages": [
+    "pages/home/home",
+    "pages/index/index"
+],
+"subPackages": [
+    {
+        "root": "packageA/pages",
+        "name": "packageOne",
+        "pages": [
+            "request/request",
+            "userInfo/userInfo",
+            "professInfos/professInfos",
+            "success/success"
+        ],
+        "independent": true
+    },
+    {
+        "root": "packageB/pages",
+        "name": "packageTwo",
+        "pages": [
+            "response/response",
+            "haveInfo/haveInfo",
+            "noInfos/noInfos",
+            "decInfos/decInfos",
+            "decripInfos/decripInfos",
+            "wouldUnderstand/wouldUnderstand",
+            "notUnderstand/notUnderstand",
+            "intention/intention",
+            "userGuide/userGuide",
+            "chatRoom/chatRoom"
+        ],
+        "independent": true
+    },
+    {
+        "root": "packageC/pages",
+        "name": "packageThree",
+        "pages": [
+            "addFriends/addFriends",
+            "onlineService/onlineService",
+            "peofessHistory/peofessHistory",
+            "professH/professH",
+            "professT/professT",
+            "professId/professId",
+            "myRecords/myRecords",
+            "mySelf/mySelf"
+        ],
+        "independent": true
+    }
+],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "表白神器",
     "navigationBarTextStyle":"black"
+  },
+  "dynamicLib": {
+    "smartUI": {
+        "provider": "smart-ui"
+    }
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

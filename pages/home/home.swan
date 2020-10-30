@@ -1,0 +1,54 @@
+<!--pages/home/home.wxml-->
+<view class="container">
+  <view class="page__hd">
+    <view class="img__container">
+      <view class="hd__logo">IOU</view>
+      <image class="hd__img" bindtap="toMySelf"></image>
+    </view>
+    <view class="hd__title">表白助手</view>
+  </view>
+  <view class="page__bd">
+    <view class="bd__title">
+      用户指南
+    </view>
+    <image class="bd__img" ></image>
+    <view class="fun">
+      <view class="fun__title">响应表白</view>
+      <view class="fun__container">
+        <view class="b-container">
+            <view class="timer minute">
+                <view class="hand"><view></view></view>
+                <view class="hand"><view></view></view>
+            </view>
+            <view class="box"></view>
+        </view>
+        <view class="b-container">
+            <view class="timer minute">
+                <view class="hand"><view></view></view>
+                <view class="hand"><view></view></view>
+            </view>
+            <view class="box"></view>
+        </view>
+        <view class="b-container">
+            <view class="timer minute">
+                <view class="hand"><view></view></view>
+                <view class="hand"><view></view></view>
+            </view>
+            <view class="box"></view>
+        </view>
+        <view class="btn">
+          <smt-icon size="60rpx" name="arrow" class="icon" color="white"></smt-icon>
+        </view>
+      </view>
+      <view class="send-container">
+        <view class="send-btn" bind:tap="navigateTo">
+          发起表白
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="box11">
+        <view class="box12"></view>
+        <image src="/images/wave.gif"></image>
+    </view>
+</view>

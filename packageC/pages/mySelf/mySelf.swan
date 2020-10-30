@@ -1,0 +1,59 @@
+<!--pages/mySelf/mySelf.swan-->
+<view class="container">
+  <view class="page__hd">
+    <view class="title">个人中心</view>
+    <view class="photo" >
+        <view s-if="{{!loginUser.id}}">
+            <image class="img"  bindtap="login"></image></br>
+        </view>
+
+        <view s-else>
+            <image class="img" src="{{loginUser.userPic}}"></image></br>
+        </view>
+
+      <view class="name" s-if="{{!loginUser.id}}">点击头像登录</view>
+
+      <view class="name">{{loginUser.nickName}}</view>
+      <view class="desc">
+        <view class="desc1" s-if="{{loginUser.aprisKeyWords && loginUser.aprisKeyWords[0]}}">{{loginUser.aprisKeyWords[0]}}、</view>
+        <view class="desc1" s-if="{{loginUser.aprisKeyWords && loginUser.aprisKeyWords[0]}}">{{loginUser.aprisKeyWords[1]}}、</view>
+        <view class="desc1" s-if="{{loginUser.aprisKeyWords && loginUser.aprisKeyWords[0]}}">{{loginUser.aprisKeyWords[2]}}</view>
+      </view>
+    </view>
+  </view>
+  <view class="page__bd">
+    <view class="fun">
+      <view class="share pad">
+        <image class="share-img f" src="../../images/add-friends.png"></image>
+        <view  bind:tap="addFriends">邀请好友</view>
+      </view>
+      <view class="help pad">
+        <image class="help-img f" src="../../images/server.png"></image>
+        <view  bind:tap="onlineService">在线客服</view>
+      </view>
+      <view class="history pad">
+        <image class="history-img f" src="../../images/history.png"></image>
+        <view bind:tap="professHistory">表白记录</view>
+      </view>
+    </view>
+    <view class="f__img">
+        <!-- <view><image src="../../images/1.png"></image></view>
+        <view><image src="../../images/2.png"></image></view>
+        <view><image src="../../images/3.png"></image></view>
+        <view><image src="../../images/4.png"></image></view> -->
+    </view>
+  </view>
+</view>
+
+<!-- <view class="wrap">
+    <button type="primary" class="middle-btn" open-type="getUserInfo" bindgetuserinfo="getUserInfo">
+        获取用户信息按钮
+    </button>
+</view>
+
+<view class="wrap">
+    <button type="primary" class="middle-btn" open-type="getUserInfo" bindtap="toChatRoom">
+        去聊天室
+    </button>
+    <input class="normalInput" value="{{toUserId}}" bindblur="getToUserId" placeholder="toUserId" />
+</view> -->

@@ -1,0 +1,29 @@
+<!--pages/decripInfos/decripInfos.swan-->
+<view class="container">
+  <view class="top content">
+    <view class="title"><text>他/她对爱情的认知如下，你认可吗?</text></view>
+    <view class="hobbies">
+      <text>认知1、</text>
+      <text>认知2、</text>
+      <text>认知3</text>
+    </view>
+    <view class="buttons">
+      <radio-group class="radio-group" bindchange="radioChange">
+        <label class="radio"  s-for="{{lists}}" s-key="index">
+            <radio value="{{item.value}}" >{{item.name}}</radio>
+          </label>
+      </radio-group>
+      <!-- <view class="bao"><view class="first in"></view>认可</view>
+      <view class="bao"><view class="second in"></view>不认可</view> -->
+    </view>
+  </view>
+  <view class="youlike">
+    <wux-cell-group title="请输入你喜欢的人的名字吧！">
+            <wux-cell hover-class="none">
+                <wux-input type="text" placeholder="单行输入" />
+            </wux-cell>
+      </wux-cell-group>
+    <!-- <input type="text" placeholder="单行输入"/> -->
+  </view>
+  <button bindtap="nextPage">进入聊天室</button>
+</view>

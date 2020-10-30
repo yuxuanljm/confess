@@ -1,0 +1,46 @@
+<view class="container">
+    <view class="page">
+        <view class="top">
+            <view >
+            <!-- icon -->
+            <view class="icon"><image src="../../images/icon.png">
+           </image>
+           </view>
+            <!-- <image src="../../images/2.png"></image> -->
+            <!-- <view class="people"></view> -->
+            </view>
+        </view>
+        <!-- 白色区域 -->
+        <view class="bottom">
+            <view class="first">
+                <view class="shared">
+                        <view class="head"></view>
+                        <view class="trans">表白助手</view>
+                </view>
+                <view class="biaobai">
+                        <view>IOU表白助手</view>
+                        <view class="con">您的专属表白助手</view>
+                </view>
+            </view>
+            <view  class="second">
+            <!-- 二维码？ -->
+                <view class="myMa"></view>
+            </view>
+            <view class="third">
+              <view class="level one">
+                   <view class="heighs"> <image src="https://profess-artifact.oss-cn-beijing.aliyuncs.com/profess-web/images/share.png"></image></view>
+                   <view>点击分享</view>
+               </view>
+                <view class="level">
+                   <view class="heighs"> <image src="https://profess-artifact.oss-cn-beijing.aliyuncs.com/profess-web/images/local.png"></image></view>
+                   <view>保存本地</view>
+               </view>
+            </view>
+        </view>
+    </view>
+    <!-- 底部 -->
+    <view class="last">
+       <view>IOU</view>
+       <view>表白助手</view>
+    </view>
+</view>

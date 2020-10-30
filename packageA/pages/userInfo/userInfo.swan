@@ -1,0 +1,40 @@
+<view class="container">
+    <view class="page__hd">
+        <view class="page__title">
+            <view class="title">个人信息填写
+                <smt-icon name="help" class="help" color="white" size="45rpx"></smt-icon>
+            </view>
+        </view>
+    </view>
+    <view class="page__bd">
+        <view class="page__rate">
+            <view class="rate__title">
+                为自己颜值打分（0-10）
+            </view>
+            <view class="rate">
+
+            </view>
+        </view>
+        <view class="page__know">
+            <view class="know__title">
+                关于爱情的认知：
+            </view>
+            <textarea class="know" placeholder="认真填写哦，是很重要的筛选项~">
+            </textarea>
+        </view>
+        <view class="page__merit">
+            <view class="know__merit">
+                吸引对方的点：
+            </view>
+            <textarea class="merit" placeholder="可以是兴趣爱好之类的~">
+            </textarea>
+        </view>
+        <view class="bd__img-c">
+            <image src="/images/1.png" class="bd__img"></image>
+        </view>
+    </view>
+    <view class="next">
+        <!-- <smt-icon name="arrow" class="button" color="white" size="100rpx" bind:tap="navigateTo"></smt-icon> -->
+        <image src="../../images/rightIcon.png" bind:tap="navigateTo"  class="button"></image>
+    </view>
+</view>

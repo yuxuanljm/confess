@@ -1,0 +1,14 @@
+<view class="container">
+    <view class="title">表白记录</view>
+    <view class="content">
+        <image src="../../images/broken-heart1.png"></image>
+        <view class="conttitle">您还没有发起过表白哦~</view>
+        <view class="buttons">
+            <button>返回</button>
+            <button>发起表白</button>
+        </view>
+    </view>
+    <view class="last">
+        <image src="../../images/last-heart.png"></image>
+    </view>
+</view>

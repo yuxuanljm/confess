@@ -1,0 +1,23 @@
+/* pages/notUnderstand/notUnderstand.css */
+.container{
+   width:100%;
+   padding:20px;
+}
+.container .img{
+  width:90%;
+  height:200px;
+  border:1px solid black;
+}
+.content{
+  font-size: 12px;
+  widows: 85px;
+  border:1px solid black;
+  height: 100px;
+  line-height: 20px;
+  border-radius: 20px;
+  margin:20px 0;
+}
+
+.content view {
+  text-indent:2em;
+}

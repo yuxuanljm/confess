@@ -4,7 +4,7 @@
     "ignore": []
   },
   "setting": {
-    "urlCheck": true,
+    "urlCheck": false,
     "es6": true,
     "enhance": false,
     "postcss": true,
@@ -36,7 +36,7 @@
   },
   "compileType": "miniprogram",
   "libVersion": "2.13.1",
-  "appid": "wxf7427b32cb11048b",
+  "appid": "wx6058b599d6fa2373",
   "projectname": "miniprogram-2",
   "debugOptions": {
     "hidedInDevtools": []
@@ -151,6 +151,33 @@
           "name": "pages/notUnderstand/notUnderstand",
           "pathName": "pages/notUnderstand/notUnderstand",
           "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/sendOk/sendOk",
+          "pathName": "pages/sendOk/sendOk",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/mySelf/mySelf",
+          "pathName": "pages/mySelf/mySelf",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/chatRoom/chatRoom",
+          "pathName": "pages/chatRoom/chatRoom",
           "scene": null
         }
       ]

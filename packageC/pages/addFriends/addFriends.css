@@ -1,0 +1,83 @@
+.container{
+    background-color:#FE798C ;
+    width:100%;
+    height: 160vw;
+    padding:150rpx 15px;
+
+}
+.page{
+    width:100%;
+    height: 330px;
+    box-shadow:inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 20px rgb(248, 95, 120);
+    border-radius: 20px;
+    background-color:#fff;
+}
+.page .top{
+    background-color: #F9D2E7;
+    width: 100%;
+    height: 200rpx;
+    border-radius: 20px;
+}
+.page .top .icon{
+    width:90px;
+    height: 90px;
+    /* background-color: #CBD6F5; */
+}
+.icon image{
+    width:90px;
+    height:90px;
+}
+.page .bottom{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+}
+.page .bottom .first .head{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:black;
+    /* margin-left: 5px; */
+}
+.shared{
+    width:120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:8px;
+}
+.biaobai{
+    color:red;
+    margin-left: 20px;
+    letter-spacing:2px;
+}
+.biaobai .con{
+    font-size: 20rpx;
+}
+.second .myMa{
+    width:80px;
+    height:80px;
+    float: right;
+    background-color: #8D9AED;
+}
+.third{
+    display: flex;
+    text-align: center;
+    margin-top:23%;
+    font-size: 10px;
+}
+.third image{
+    width:30px;
+    height: 30px;
+}
+.third .level{
+    width: 50px;
+    justify-content: space-around;
+}
+.last{
+   font-size: 70rpx;
+   color:#fff;
+   letter-spacing:2px;
+   margin-left: -140px;
+   margin-top: 20px;
+}

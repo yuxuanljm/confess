@@ -1,0 +1,15 @@
+<!--pages/success/success.wxml-->
+<view class="container">
+  <image src="/images/1.png" class="photo-h"></image>
+  <view class="succ__img">
+    <!-- <icon type="success_no_circle" size="128"  color="white" class="icon"/> -->
+    <image src="../../images/yes.png" class="yes"></image>
+  </view>
+  <view class="success">您的表白已发送</view>
+  <view class="desc">
+    <view>如果48小时内对方响应</view>
+    <view>表白君将以短信的方式通知您~</view>
+  </view>
+  <view class="gohome" bind:tap="goHome">返回主页</view>
+  <image src="/images/4.png" class="photo-f"></image>
+</view>

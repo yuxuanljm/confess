@@ -1,0 +1,225 @@
+/* pages/home/home.wxss */
+page{
+    /* background-color: lightcoral; */
+}
+.container{
+    padding: 0;
+    margin: 0;
+}
+.page__hd{
+    width: 100%;
+    height: 300rpx;
+    padding:0 10px;
+    background-color: #8D9AED;
+    /* border-radius: 20rpx; */
+  }
+  .hd__title{
+    font-size: 70rpx;
+    color: white;
+    margin-top: -10px;
+  }
+  .img__container{
+    display: flex;
+    justify-content: space-between;
+  }
+  .hd__logo{
+    width: 120rpx;
+    height: 120rpx;
+    font-size: 80rpx;
+    margin-top: 20rpx;
+    color: white;
+  }
+  .hd__img{
+    width: 100rpx;
+    height: 100rpx;
+    background-color: black;
+    border-radius: 50%;
+    margin: 40rpx 0;
+  }
+  .page__bd{
+    width: 100%;
+    height: 850rpx;
+    padding: 20rpx 30rpx;
+    transform: translateY(-50rpx);
+    background-color: white;
+    border-radius: 30rpx;
+  }
+  .bd__title{
+      font-size: 50rpx;
+      color: #F54A6E;
+      margin:5px;
+  }
+  .bd__img{
+    width: 100%;
+    height: 55%;
+    background-color: yellowgreen;
+    margin-bottom: 40rpx;
+  }
+  .fun{
+    width: 100%;
+    height: 200rpx;
+    border-radius: 30rpx;
+    background-color: rgb(169, 217, 236);
+    box-shadow:inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 10px rgb(169, 217, 236);;
+  }
+  .fun__title{
+    font-size: 30rpx;
+    margin-left: 30rpx;
+  }
+  .fun__container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow: auto;
+  }
+  .btn{
+    position: relative;
+    width: 100rpx;
+    height: 100rpx;
+    margin: 0 40rpx;
+    flex-shrink: 0;
+    background:linear-gradient(rgb(230, 230, 101),pink);
+    box-shadow:inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 10px rgb(230, 230, 101);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100rpx;
+  }
+  .icon{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translateY(-35%) translateX(-45%);
+  }
+  .send-btn{
+    width: 200rpx;
+    height: 200rpx;
+    margin: 80rpx auto;
+    text-align: center;
+    line-height: 200rpx;
+    font-size: 30rpx;
+    background:linear-gradient(rgb(255, 255, 148),pink);
+    box-shadow:inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 10px rgb(230, 230, 101);
+    border-radius: 50%;
+  }
+  /*border*/
+  .timer {
+    border-radius: 50%;
+    height: 100rpx;
+    width: 100rpx;
+    overflow: hidden;
+    position: absolute;
+}
+.timer .hand {
+    float: left;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 50%;
+}
+.timer .hand view {
+    border: 50rpx solid rgba(0, 255, 255, .4);
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-radius: 50%;
+    display: block;
+    height: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: rotate(225deg);
+    width: 0;
+}
+.timer .hand:first-child {
+    transform: rotate(180deg);
+}
+.timer .hand view {
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.timer .hand:first-child view {
+    animation-name: spin1;
+}
+.timer .hand:last-child view {
+    animation-name: spin2;
+}
+.timer.minute {
+    background: black;
+    height: 100rpx;
+    width: 100rpx;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+.timer.minute .hand view {
+    animation-duration: 60s;
+    border-top-color: white;
+    border-right-color: white;
+    border-width: 50rpx;
+}
+@keyframes spin1 {
+    0% {
+    transform: rotate(225deg);
+    }
+    50% {
+    transform: rotate(225deg);
+    }
+    100% {
+    transform: rotate(405deg);
+    }
+}
+@keyframes spin2 {
+    0% {
+    transform: rotate(225deg);
+    }
+    50% {
+    transform: rotate(405deg);
+    }
+    100% {
+    transform: rotate(405deg);
+    }
+}
+.b-container{
+    position: relative;
+    width: 100rpx;
+    height: 100rpx;
+    margin: 0 40rpx;
+    flex-shrink: 0;
+}
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    width: 80rpx;
+    height: 80rpx;
+    background:linear-gradient(rgb(230, 230, 101),pink);
+    box-shadow:inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 10px rgb(230, 230, 101);
+    border-radius: 50%;
+    bottom: 0;
+}
+.box11{
+    position: relative;
+    width: 100%;
+    height: 100rpx;
+    background-color: rgb(247, 187, 187);
+    opacity: 0.3;
+    overflow: hidden;
+}
+.box12{
+    position: absolute;
+    width: 100%;
+    height: 100rpx;
+    background-color: rgb(252, 157, 166);
+    opacity: 0.3;
+}
+.box11 image{
+    position: absolute;
+    top: -55%;
+    width: 100%;
+    height: 100rpx;
+    background-color: rgb(245, 188, 218);
+    opacity: 0.4;
+
+}

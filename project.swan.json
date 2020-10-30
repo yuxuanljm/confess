@@ -1,0 +1,346 @@
+{
+    "appid": "22845600",
+    "compilation-args": {
+        "common": {},
+        "options": [
+            {
+                "extra": {
+                    "compileArgs": "--module cmd",
+                    "ext": {},
+                    "index": "pages/chatRoom/chatRoom",
+                    "query": "",
+                    "scene": {}
+                },
+                "id": 0,
+                "text": "pages/chatRoom/chatRoom"
+            },
+            {
+                "extra": {
+                    "compileArgs": "--module cmd",
+                    "ext": {},
+                    "index": "pages/mySelf/mySelf",
+                    "query": "",
+                    "scene": {}
+                },
+                "id": 1,
+                "text": "pages/mySelf/mySelf"
+            },
+            {
+                "extra": {
+                    "compileArgs": "--module cmd",
+                    "ext": {},
+                    "index": "pages/index/index",
+                    "query": "",
+                    "scene": {}
+                },
+                "id": 2,
+                "text": "pages/index/index"
+            },
+            {
+                "extra": {
+                    "compileArgs": "--module cmd",
+                    "ext": {},
+                    "index": "pages/userInfo/userInfo",
+                    "query": "",
+                    "scene": {}
+                },
+                "id": 3,
+                "text": "pages/userInfo/userInfo"
+            },
+            {
+                "extra": {
+                    "compileArgs": "--module cmd",
+                    "ext": {},
+                    "index": "pages/request/request",
+                    "query": "",
+                    "scene": {}
+                },
+                "id": 4,
+                "text": "pages/request/request"
+            },
+            {
+                "extra": {
+                    "compileArgs": "--module cmd",
+                    "ext": {},
+                    "index": "pages/home/home",
+                    "query": "",
+                    "scene": {},
+                    "isUpdate": false
+                },
+                "id": 5,
+                "text": "pages/home/home"
+            },
+            {
+                "extra": {
+                    "compileArgs": "--module cmd",
+                    "ext": {},
+                    "index": "pages/success/success",
+                    "query": "",
+                    "scene": {}
+                },
+                "id": 6,
+                "text": "pages/success/success"
+            },
+            {
+                "extra": {
+                    "compileArgs": "--module cmd",
+                    "ext": {},
+                    "index": "pages/professInfos/professInfos",
+                    "query": "",
+                    "scene": {}
+                },
+                "id": 7,
+                "text": "pages/professInfos/professInfos"
+            },
+            {
+                "extra": {
+                    "compileArgs": "--module cmd",
+                    "ext": {},
+                    "index": "pages/intention/intention",
+                    "query": "",
+                    "scene": {}
+                },
+                "id": 8,
+                "text": "pages/intention/intention"
+            },
+            {
+                "extra": {
+                    "compileArgs": "--module cmd",
+                    "ext": {},
+                    "index": "pages/home/home",
+                    "query": "",
+                    "scene": {}
+                },
+                "id": 9,
+                "text": "pages/home/home"
+            },
+            {
+                "extra": {
+                    "compileArgs": "--module cmd",
+                    "ext": {},
+                    "index": "pages/home1/home1",
+                    "query": "",
+                    "scene": {}
+                },
+                "id": 10,
+                "text": "pages/home1/home1"
+            },
+            {
+                "extra": {
+                    "compileArgs": "--module cmd",
+                    "ext": {},
+                    "index": "pages/home1/home",
+                    "query": "",
+                    "scene": {}
+                },
+                "id": 11,
+                "text": "pages/home1/home"
+            },
+            {
+                "extra": {
+                    "compileArgs": "--module cmd",
+                    "ext": {},
+                    "index": "pages/success1/success",
+                    "query": "",
+                    "scene": {}
+                },
+                "id": 12,
+                "text": "pages/success1/success"
+            },
+            {
+                "extra": {
+                    "compileArgs": "--module cmd",
+                    "ext": {},
+                    "index": "pages/professInfos1/professInfos",
+                    "query": "",
+                    "scene": {}
+                },
+                "id": 13,
+                "text": "pages/professInfos1/professInfos"
+            },
+            {
+                "extra": {
+                    "compileArgs": "--module cmd",
+                    "ext": {},
+                    "index": "pages/home/home",
+                    "query": "",
+                    "scene": {}
+                },
+                "id": 14,
+                "text": "pages/home/home"
+            },
+            {
+                "extra": {
+                    "compileArgs": "--module cmd",
+                    "ext": {},
+                    "index": "pages/request/request",
+                    "query": "",
+                    "scene": {}
+                },
+                "id": 15,
+                "text": "pages/request/request"
+            },
+            {
+                "extra": {
+                    "compileArgs": "--module cmd",
+                    "ext": {},
+                    "index": "pages/sendOk/sendOk",
+                    "query": "",
+                    "scene": {}
+                },
+                "id": 16,
+                "text": "pages/sendOk/sendOk"
+            },
+            {
+                "extra": {
+                    "compileArgs": "--module cmd",
+                    "ext": {},
+                    "index": "pages/professInfos/professInfos",
+                    "query": "",
+                    "scene": {}
+                },
+                "id": 17,
+                "text": "pages/professInfos/professInfos"
+            },
+            {
+                "extra": {
+                    "compileArgs": "--module cmd",
+                    "ext": {},
+                    "index": "pages/success/success",
+                    "query": "",
+                    "scene": {}
+                },
+                "id": 18,
+                "text": "pages/success/success"
+            },
+            {
+                "extra": {
+                    "compileArgs": "--module cmd",
+                    "ext": {},
+                    "index": "pages/test/test",
+                    "query": "",
+                    "scene": {}
+                },
+                "id": 19,
+                "text": "pages/test/test"
+            },
+            {
+                "extra": {
+                    "compileArgs": "--module cmd",
+                    "ext": {},
+                    "index": "pages/addFriends/addFriends",
+                    "query": "",
+                    "scene": {}
+                },
+                "id": 20,
+                "text": "pages/addFriends/addFriends"
+            },
+            {
+                "extra": {
+                    "compileArgs": "--module cmd",
+                    "ext": {},
+                    "index": "pages/onlineService/onlineService",
+                    "query": "",
+                    "scene": {}
+                },
+                "id": 21,
+                "text": "pages/onlineService/onlineService"
+            },
+            {
+                "extra": {
+                    "compileArgs": "--module cmd",
+                    "ext": {},
+                    "index": "pages/userGuide/userGuide",
+                    "query": "",
+                    "scene": {}
+                },
+                "id": 22,
+                "text": "pages/userGuide/userGuide"
+            },
+            {
+                "extra": {
+                    "compileArgs": "--module cmd",
+                    "ext": {},
+                    "index": "pages/peofessHistory/peofessHistory",
+                    "query": "",
+                    "scene": {}
+                },
+                "id": 23,
+                "text": "pages/peofessHistory/peofessHistory"
+            },
+            {
+                "extra": {
+                    "compileArgs": "--module cmd",
+                    "ext": {},
+                    "index": "pages/professH/professH",
+                    "query": "",
+                    "scene": {}
+                },
+                "id": 24,
+                "text": "pages/professH/professH"
+            },
+            {
+                "extra": {
+                    "compileArgs": "--module cmd",
+                    "ext": {},
+                    "index": "pages/professT/professT",
+                    "query": "",
+                    "scene": {}
+                },
+                "id": 25,
+                "text": "pages/professT/professT"
+            },
+            {
+                "extra": {
+                    "compileArgs": "--module cmd",
+                    "ext": {},
+                    "index": "pages/myRecords/myRecords",
+                    "query": "",
+                    "scene": {}
+                },
+                "id": 26,
+                "text": "pages/myRecords/myRecords"
+            },
+            {
+                "extra": {
+                    "compileArgs": "--module cmd",
+                    "ext": {},
+                    "index": "pages/select/select",
+                    "query": "",
+                    "scene": {}
+                },
+                "id": 27,
+                "text": "pages/select/select"
+            },
+            {
+                "extra": {
+                    "compileArgs": "--module cmd",
+                    "ext": {},
+                    "index": "pages/oneQuestion/oneQuestion",
+                    "query": "",
+                    "scene": {}
+                },
+                "id": 28,
+                "text": "pages/oneQuestion/oneQuestion"
+            }
+        ],
+        "selected": 5
+    },
+    "host": "baiduboxapp",
+    "preview": {
+        "packageId": 703483
+    },
+    "projectname": "miniprogram-2",
+    "publish": {
+        "version": "1.0.3"
+    },
+    "setting": {
+        "urlCheck": false
+    },
+    "swan": {
+        "baiduboxapp": {
+            "extensionJsVersion": "1.15.3",
+            "swanJsVersion": "3.200.116"
+        }
+    }
+}

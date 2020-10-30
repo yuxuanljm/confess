@@ -1,0 +1,116 @@
+/* pages/userInfo/userInfo.wxss */
+page{
+    background-color: rgb(255, 196, 206);
+    height: 100vh;
+}
+.container{
+    padding:0 20px;
+    font-size: 12px;
+    height: 100%;
+    display: block;
+  }
+  .page__hd{
+    position: relative;
+    text-align: center;
+    font-size: 40rpx;
+    line-height: 100rpx;
+    width: 100%;
+    color: white;
+    margin-bottom: 20px;
+  }
+  .page__bd{
+      height: 900rpx;
+      position: relative;
+      background-color: white;
+  }
+  .img{
+    position: absolute;
+    right: 0;
+    width: 100rpx;
+    height: 200rpx;
+    background-color: royalblue;
+    transform: translateY(-35%);
+  }
+  .tall-c{
+        padding-top: 100rpx;
+  }
+  .weight-c,.age-c{
+        padding-top: 40rpx;
+  }
+  .tall,.wrap{
+    position: relative;
+    z-index: 1;
+    margin: 10px auto;
+    padding: 0 10px;
+    line-height: 90rpx;
+    width: 180px;
+    height: 90rpx;
+    font-size: 12px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 15px rgb(248, 95, 120);
+  }
+  .rt{
+    position: absolute;
+    top: 45%;
+    right: 10%;
+    width: 0px;
+    height: 0px;
+    border-top: rgb(235, 35, 235) 20rpx solid;
+    border-bottom: none;
+    border-right: transparent 20rpx solid;
+    border-left: transparent 20rpx solid;
+    z-index: 0;
+  }
+  .help{
+    position: absolute;
+    top: 50%;
+    right: 24%;
+    transform: translateY(-45%);
+  }
+  .title{
+    padding-left: 100rpx;
+  }
+  .rate{
+      width: 99%;
+      height: 80rpx;
+      background-color: rebeccapurple;
+  }
+  .rating{
+      margin-top: 80rpx;
+      padding-left: 80rpx;
+  }
+  .content{
+    /* border:1px black solid; */
+    margin: 20rpx 0;
+    /* 不起作用 */
+    /* box-sizing: border-box; */
+  }
+  .content1{
+    z-index: 1;
+    width: 90%;
+    height: 350rpx;
+    padding: 0 10px;
+    margin-top:20px;
+    margin-bottom: 10px;
+    font-size: 30rpx;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 10px rgb(248, 95, 120);
+  }
+  .content2{
+    z-index: 1;
+    width: 90%;
+    height: 200rpx;
+    padding: 0 10px;
+    margin-top:20px;
+    font-size: 30rpx;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 10px rgb(248, 95, 120);
+  }
+  .button{
+    position: absolute;
+    right: 7%;
+    bottom: 0%;
+  }
